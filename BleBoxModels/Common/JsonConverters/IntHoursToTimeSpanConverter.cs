@@ -3,7 +3,7 @@ using System.Text.Json.Serialization;
 
 namespace BleBoxModels.Common.JsonConverters;
 
-internal class IntHoursToTimeSpanConverter : JsonConverter<TimeSpan>
+public class IntHoursToTimeSpanConverter : JsonConverter<TimeSpan>
 {
     public override TimeSpan Read(
         ref Utf8JsonReader reader,
