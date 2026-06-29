@@ -6,5 +6,7 @@ public enum EncryptionMode
     WEP,
     WPA,
     WPA2,
-    WPA_WPA2
+    WPA_WPA2,
+    WPA3_PSK = 6,
+    WPA2_WPA3_PSK = 7
 }

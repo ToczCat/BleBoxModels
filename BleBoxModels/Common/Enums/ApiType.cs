@@ -5,6 +5,7 @@ public enum ApiType
     Unknown,
     AirSensor,
     ButtonBox,
+    DisplayBox,
     GateBox,
     MultiSensor,
     ShutterBox,
